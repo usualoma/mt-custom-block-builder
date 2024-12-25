@@ -1,0 +1,34 @@
+{
+  "name": "@usualoma/mt-custom-block-builder",
+  "version": "1.0.2",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "bin": {
+    "mt-custom-block-builder": "./dist/builder.js"
+  },
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/index.js",
+    "dev": "ts-node src/index.ts"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": "Build Custom Block for Movable Type Block Editor via CLI",
+  "dependencies": {
+    "chokidar": "^3.6.0",
+    "commander": "^11.0.0",
+    "esbuild": "^0.19.0",
+    "mime-types": "^2.1.35",
+    "vite": "^6.0.5"
+  },
+  "devDependencies": {
+    "@types/mime-types": "^2.1.4",
+    "@types/node": "^20.17.6",
+    "typescript": "^5.0.0"
+  },
+  "files": [
+    "dist",
+    "public",
+    "package.json"
+  ]
+}

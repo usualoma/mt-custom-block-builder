@@ -1,0 +1,21 @@
+{
+  "name": "@usualoma/mt-custom-block-builder-example",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "dev": "vite",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "@hono/node-server": "^1.13.7",
+    "hono": "^4.6.14",
+    "tsx": "^4.19.2",
+    "vite": "^6.0.5"
+  },
+  "dependencies": {
+    "@usualoma/mt-custom-block-builder": "^1.0.0"
+  }
+}

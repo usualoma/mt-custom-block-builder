@@ -1,0 +1,53 @@
+{
+  "class_name": "",
+  "html": "",
+  "icon": "",
+  "identifier": "block1",
+  "label": "ブロック1",
+  "preview_header": "",
+  "can_remove_block": false,
+  "wrap_root_block": true,
+  "show_preview": true,
+  "block_display_options": {
+    "core-text": {
+      "order": 0,
+      "panel": true,
+      "shortcut": true
+    },
+    "mt-image": {
+      "order": 1,
+      "panel": true,
+      "shortcut": true
+    },
+    "mt-file": {
+      "order": 2,
+      "panel": true,
+      "shortcut": true
+    },
+    "core-html": {
+      "order": 3,
+      "panel": true,
+      "shortcut": false
+    },
+    "sixapart-oembed": {
+      "order": 4,
+      "panel": true,
+      "shortcut": false
+    },
+    "core-horizontalrule": {
+      "order": 5,
+      "panel": true,
+      "shortcut": false
+    },
+    "core-table": {
+      "order": 6,
+      "panel": true,
+      "shortcut": false
+    },
+    "core-columns": {
+      "order": 7,
+      "panel": true,
+      "shortcut": false
+    }
+  }
+}

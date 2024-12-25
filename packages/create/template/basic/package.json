@@ -1,0 +1,13 @@
+{
+  "name": "",
+  "type": "module",
+  "version": "0.0.0",
+  "private": true,
+  "description": "Plugin for Movable Type",
+  "scripts": {
+    "build": "mt-custom-block-builder build"
+  },
+  "devDependencies": {
+    "@usualoma/mt-custom-block-builder": "^1.0.1"
+  }
+}

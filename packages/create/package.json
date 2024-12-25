@@ -1,0 +1,23 @@
+{
+  "name": "@usualoma/create-mt-custom-block",
+  "version": "0.0.10",
+  "description": "Create Custom Block project for Movable Type Block Editor",
+  "main": "dist/index.js",
+  "bin": {
+    "create-mt-custom-block": "./dist/index.js"
+  },
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/index.js"
+  },
+  "dependencies": {
+    "prompts": "^2.4.2",
+    "fs-extra": "^11.1.1"
+  },
+  "devDependencies": {
+    "@types/node": "^18.0.0",
+    "@types/prompts": "^2.4.4",
+    "@types/fs-extra": "^11.0.1",
+    "typescript": "^5.0.0"
+  }
+}

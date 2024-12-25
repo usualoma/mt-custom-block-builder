@@ -1,0 +1,9 @@
+{
+    "name": "mt-plugin-builder",
+    "type": "module",
+    "license": "MIT",
+    "private": true,
+    "workspaces": [
+        "packages/*"
+    ]
+}
